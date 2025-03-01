@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Menu - PJ Azerbaijan</title>
+        <link rel="stylesheet" href="favicon.ico">
+        <link rel="stylesheet" href="input.css">
+        <link rel="stylesheet" href="output.css">
+        <link rel="stylesheet" href="font.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+
+        <div id="modal" class="hidden fixed top-0 left-0 bg-[rgb(128,128,128,0.7)] w-full h-full z-50 ">
+            <!-- <div class="flex flex-col justify-between w-full h-full lg:w-[80%] lg:max-h-[95%] translate-x-[-50%] translate-y-[-50%] top-[50%] left-[50%] lg:rounded-[32px] fixed p-[30px] bg-white overflow-y-auto">
+                <div class="w-full">
+                    
+                    <div class="w-full flex items-center justify-end">
+                        <button id="closeModal" class="cursor-pointer"><i class="fa-solid fa-x"></i></button>
+                    </div>
+
+                    <div class="flex flex-col lg:flex-row items-start justify-start gap-10">
+                        <div class="w-full lg:w-[215px] flex flex-col justify-center ">
+                            <div class="w-full lg:w-[215px] h-[200px] lg:h-[141px]">
+                                <img src="img/c1.jpg" class="w-full h-full object-cover rounded-2xl" alt="">
+                            </div>
+                            <h2 class="text-[36px] pt-[24px] papaheavy">Amrican Hot</h2>
+                            <p class="text-[14px] pt-[7px]">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, ipsam.</p>
+                        </div>
+                        <div class="flex flex-col ">
+                            <p class="pb-[18px] text-[18px] papaheavy">Ölçü <span class="text-[#2D5D2A] ">(Mütləq)</span></p>
+                            <div class="flex flex-col items-start lg:flex-row lg:items-center justify-start  gap-5">
+                                <div class="flex items-center">
+                                    <div class=" flex flex-col justify-between cursor-pointer rounded-[10px] mb-[10px] mr-[10px] p-[10px] min-h-[80px] border-1 border-[#2D5D2A]">
+                                        <p class="papaheavy text-[14px] text-[#72747A]">Böyük, 35 sm</p>
+                                        <p class="papaheavy text-[14px] text-[#2D5D2A] ">23.00 AZN</p>
+                                    </div>
+                                    <div class="flex items-end text-[#C9C9C9] justify-start gap-3.5 cursor-pointer hover:!text-[#2D5D2A]">
+                                        <p class="text-[14px]">Digər <br> Varinatı <br> Seçin</p>
+                                        <i class="text-[14px] fa-solid fa-arrow-right"></i>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <p class="pb-[18px] mt-2.5 text-[18px] papaheavy">Xəmirin Növü <span class="text-[#2D5D2A] ">(Mütləq)</span></p>
+                            <div class="flex flex-col items-start lg:flex-row lg:items-center justify-start  gap-5">
+                                <div class="flex items-center">
+                                    <div class=" flex flex-col justify-between cursor-pointer rounded-[10px] mb-[10px] mr-[10px] p-[10px] min-w-[120px] min-h-[80px] border-1 border-[#2D5D2A]">
+                                        <p class="papaheavy text-[14px] text-[#72747A]">Nazik</p>
+                                    </div>
+                                    <div class="flex items-end text-[#C9C9C9] justify-start gap-3.5 cursor-pointer hover:!text-[#2D5D2A]">
+                                        <p class="text-[14px]">Digər <br> Varinatı <br> Seçin</p>
+                                        <i class="text-[14px] fa-solid fa-arrow-right"></i>
+                                    </div>
+                                </div>
+                                <div class="flex  flex-col lg:flex-row gap-5 ">
+                                    <div class=" flex flex-col justify-between cursor-pointer rounded-[10px] mb-[10px] mr-[10px] p-[10px] min-w-[120px] min-h-[80px] border-1 border-[#2D5D2A]">
+                                        <p class="papaheavy text-[14px] text-[#72747A]">Mozzarella kənar</p>
+                                        <p class="papaheavy text-[14px] text-[#2D5D2A] ">+5.00 AZN</p>
+                                    </div>
+                                    <div class="flex flex-col justify-between cursor-pointer rounded-[10px] mb-[10px] mr-[10px] p-[10px] min-w-[120px] min-h-[80px] border-1 border-[#2D5D2A]">
+                                        <p class="papaheavy text-[14px] text-[#72747A]">Hot dog kənar</p>
+                                        <p class="papaheavy text-[14px] text-[#2D5D2A] ">+6.00 AZN</p>
+                                    </div>
+                                    <div class=" flex flex-col justify-between cursor-pointer rounded-[10px] mb-[10px] mr-[10px] p-[10px] min-w-[120px] min-h-[80px] border-1 border-[#2D5D2A]">
+                                        <p class="papaheavy text-[14px] text-[#72747A]">Ənənəvi</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="w-full">
+                    <div class="w-full flex flex-col lg:flex-row items-center gap-3.5 lg:justify-end py-4">
+                        <h2 id="productTotalPrice" class="papaheavy text-[#456F42]">${arg.price} AZN</h2>
+                        <div class="flex items-center gap-2.5">
+                            <button onclick="minpl(-1,'${arg.price}')" class="w-[25px] h-[25px] rounded-[50%] border-1 border-[#D7D9D9] cursor-pointer p-[5px] !flex !items-center !justify-center"><i class="text-[#2D5D2A] fa-solid fa-minus"></i></button>
+                            <span id="totalcount" class="papaheavy text-[#456F42]">${count}</span>
+                            <button onclick="minpl(1,'${arg.price}')" class="w-[25px] h-[25px] rounded-[50%] border-1 border-[#D7D9D9] cursor-pointer p-[5px] !flex !items-center !justify-center"><i class="text-[#2D5D2A] fa-solid fa-plus"></i></button>
+                        </div>
+                        <button class="px-3 py-2 bg-[#CFEB0B] text-black border-1 border-black rounded-[40px] hover:bg-white cursor-pointer ">SƏBƏTƏ ƏLAVƏ ET</button>
+                    </div>
+                </div>
+            </div>     -->
+        </div>
+
+        <header class="fixed bg-white top-0 left-0 w-full !z-20 shadow-xl">
+            <nav class="wrapper">
+                <div class="flex justify-between items-center border-b-[1px] py-[1em] px-[15px] border-[#E7E7E7] relative">
+                    <div class="w-[150px] ">
+                        <svg viewBox="0 0 130 26" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_4015_99438)"><path d="M67.9309 13.0953C67.9309 11.1135 68.1339 9.22715 68.6831 7.37666C69.1487 5.82464 69.8292 4.392 70.9037 3.15038C72.0498 1.83713 73.4705 0.941728 75.2016 0.6552C77.9594 0.189592 80.4426 0.774586 82.4961 2.7564C83.5348 3.75925 84.2511 4.98893 84.7764 6.32606C85.3017 7.66319 85.6001 9.04807 85.7673 10.4568C85.9106 11.7462 85.9464 13.0475 85.8628 14.3488C85.7434 16.3665 85.3853 18.3244 84.5495 20.1868C84.0362 21.3329 83.3676 22.3716 82.4722 23.2431C81.1828 24.4967 79.6547 25.2011 77.8639 25.3921C76.5387 25.5354 75.2374 25.416 73.9719 24.9742C72.3005 24.3892 71.0111 23.3028 70.0441 21.8344C69.2681 20.6405 68.7786 19.3392 68.4562 17.9662C68.0742 16.3307 67.9309 14.6831 67.9309 13.0953ZM80.1442 12.9759C80.1322 11.8298 80.0726 10.7075 79.798 9.60919C79.6308 8.91675 79.3801 8.26012 78.9503 7.68707C77.9713 6.34994 75.8821 6.32606 74.8792 7.68707C74.7479 7.86615 74.6285 8.0691 74.5211 8.27206C74.2345 8.8093 74.0793 9.38236 73.96 9.97929C73.7212 11.1254 73.6973 12.2954 73.7093 13.4534C73.7212 14.3847 73.8048 15.3039 74.0077 16.2113C74.151 16.844 74.3659 17.4648 74.7121 18.014C75.0583 18.5393 75.5 18.9572 76.1089 19.1362C77.1595 19.4466 78.3176 19.184 79.0458 18.1095C79.3682 17.632 79.5831 17.0947 79.7383 16.5455C80.0606 15.3636 80.1322 14.1698 80.1442 12.9759Z" fill="#FE0000"></path> <path d="M87.2715 1.77743C87.9521 1.7058 91.9634 2.12365 92.7036 2.33855C92.7036 5.41872 92.7036 8.49889 92.7036 11.6029C93.9094 11.6029 95.0794 11.6029 96.2972 11.6029C96.2972 10.8627 96.2972 10.1106 96.2972 9.37041C96.2972 8.63022 96.2972 7.87808 96.2972 7.13788C96.2972 6.39769 96.2972 5.66943 96.2972 4.92923C96.2972 4.18904 96.2972 3.44884 96.2972 2.70864C96.7747 2.67283 101.264 3.25782 101.717 3.42496C101.717 10.5882 101.717 17.7513 101.717 24.9384C99.9265 24.9384 98.1357 24.9384 96.2972 24.9384C96.2733 24.5683 96.2852 24.1743 96.2852 23.7923C96.2852 23.3864 96.2852 22.9924 96.2852 22.5865C96.2852 22.1925 96.2852 21.7986 96.2852 21.4165C96.2852 21.0225 96.2852 20.6286 96.2852 20.2465C96.2852 19.8525 96.2852 19.4586 96.2852 19.0765C96.2852 18.6706 96.2852 18.2766 96.2852 17.8707C96.2852 17.4768 96.2852 17.0947 96.2852 16.6769C95.0794 16.6769 93.9094 16.6769 92.7036 16.6769C92.7036 19.4347 92.7036 22.1806 92.7036 24.9504C90.877 24.9504 89.0743 24.9504 87.2596 24.9504C87.2716 17.226 87.2715 9.51368 87.2715 1.77743Z" fill="#FE0000"></path> <path d="M48.5067 21.7627C46.8115 21.7627 45.152 21.7627 43.4686 21.7627C43.194 22.8253 42.9195 23.8759 42.6449 24.9504C40.7824 24.9504 38.9319 24.9504 37.0815 24.9504C37.0815 24.7235 43.6 2.51762 43.8865 1.72967C44.3163 1.57447 48.1725 1.31182 48.7216 1.40733C50.8587 9.23908 52.9957 17.0708 55.1446 24.9145C54.9178 24.9742 50.0707 24.9981 49.438 24.9384C49.1276 23.8998 48.8171 22.8372 48.5067 21.7627ZM47.4561 17.2619C47.0144 15.1129 46.5727 12.9998 46.1429 10.8986C46.119 10.8986 46.0951 10.8986 46.0713 10.8986C45.6056 13.0117 45.1281 15.1248 44.6625 17.2619C45.6056 17.2619 46.501 17.2619 47.4561 17.2619Z" fill="#FE0000"></path> <path d="M103.83 3.66374C104.284 3.72344 104.726 3.77119 105.156 3.84282C105.884 3.96221 106.6 4.10547 107.328 4.22486C107.531 4.26067 107.651 4.35618 107.758 4.5472C109.418 7.72288 111.089 10.8866 112.749 14.0504C112.796 14.1459 112.856 14.2533 112.904 14.3488C112.928 14.3488 112.94 14.3488 112.964 14.3369C112.964 14.0384 112.964 13.7519 112.975 13.4534C112.975 13.155 112.975 12.8565 112.975 12.57C112.975 12.2596 112.975 11.9611 112.975 11.6507C112.975 11.3522 112.975 11.0538 112.975 10.7672C112.975 10.4568 112.975 10.1584 112.975 9.84797C112.975 9.5495 112.975 9.25103 112.975 8.9645C112.975 8.6541 112.975 8.35563 112.975 8.04523C112.975 7.74676 112.975 7.4483 112.975 7.16177C112.975 6.85136 112.975 6.5529 112.975 6.24249C112.975 5.94402 112.975 5.6575 112.975 5.33515C114.551 5.63362 116.091 5.95596 117.62 6.36188C117.62 12.558 117.62 18.7423 117.62 24.9623C117.5 24.9623 117.405 24.9623 117.297 24.9623C116.271 24.9623 115.256 24.9504 114.229 24.9742C113.99 24.9742 113.859 24.9026 113.74 24.6996C112.14 21.9896 110.54 19.2795 108.928 16.5575C108.88 16.4739 108.821 16.3903 108.773 16.3068C108.749 16.3187 108.737 16.3187 108.713 16.3307C108.713 19.1959 108.713 22.0731 108.713 24.9504C107.078 24.9504 105.466 24.9504 103.842 24.9504C103.83 17.8588 103.83 10.7911 103.83 3.66374Z" fill="#FE0000"></path> <path d="M26.6829 3.48466C27.3037 3.34139 27.9006 3.19813 28.4976 3.09068C29.8705 2.83997 31.2554 2.70865 32.6522 2.73252C33.8222 2.7564 34.9683 2.89966 36.0786 3.30558C38.0007 4.00996 39.2662 5.34709 39.7438 7.34084C40.3288 9.77633 40.0661 12.1163 38.7887 14.313C38.0127 15.6501 36.9263 16.7007 35.6369 17.5484C34.6221 18.217 33.5237 18.7303 32.3657 19.1124C32.2702 19.1482 32.1866 19.172 32.0672 19.2079C32.0672 21.118 32.0672 23.0163 32.0672 24.9504C30.2645 24.9504 28.4976 24.9504 26.7187 24.9504L26.7068 24.9384C26.6948 24.9265 26.6948 24.9265 26.6948 24.9145C26.6948 24.819 26.6829 24.7235 26.6829 24.628C26.6829 17.5961 26.6829 10.5643 26.6829 3.48466ZM32.103 13.4057C32.1747 13.4057 32.2105 13.4057 32.2463 13.3937C32.8074 13.2147 33.3327 12.952 33.7267 12.4983C34.6102 11.4955 34.7773 10.3374 34.4311 9.07195C34.3356 8.73767 34.1326 8.47502 33.8461 8.284C33.3208 7.92584 32.7238 7.9139 32.103 7.94972C32.103 9.77633 32.103 11.5671 32.103 13.4057Z" fill="#FE0000"></path> <path d="M20.5583 4.45169C22.373 11.2925 24.1877 18.1095 26.0024 24.9504C24.2116 24.9504 22.4566 24.9504 20.6539 24.9504C20.4509 24.1266 20.236 23.2909 20.033 22.4313C18.5646 22.4313 17.1081 22.4313 15.6157 22.4313C15.377 23.2551 15.1382 24.0908 14.8994 24.9384C13.2161 24.9384 11.5327 24.9384 9.8255 24.9384C9.84938 24.831 9.87325 24.7474 9.89713 24.6519C11.9028 18.2647 13.8966 11.8656 15.9023 5.47842C15.962 5.27546 16.0575 5.19189 16.2604 5.14413C17.323 4.88148 18.4094 4.7024 19.4958 4.57108C19.7465 4.53526 19.9853 4.51138 20.236 4.47557C20.3315 4.46363 20.439 4.46363 20.5583 4.45169ZM16.8216 18.2528C17.5856 18.2528 18.3258 18.2528 19.1018 18.2528C18.7676 16.5097 18.4333 14.7906 18.099 13.0595C18.0751 13.0595 18.0512 13.0595 18.0393 13.0595C17.6334 14.7786 17.2275 16.4978 16.8216 18.2528Z" fill="#FE0000"></path> <path d="M0 9.29879C0.608871 9.04808 1.2058 8.78543 1.82661 8.55859C3.0563 8.09299 4.32179 7.77064 5.62311 7.62738C6.72146 7.50799 7.81982 7.51993 8.88236 7.84227C10.6851 8.36758 11.7715 9.57338 12.1058 11.4119C12.6908 14.6712 11.4014 17.7991 8.46451 19.7332C7.39003 20.4376 6.22004 20.9032 4.96648 21.1778C4.90679 21.1897 4.85903 21.2016 4.77546 21.2255C4.77546 22.4552 4.77546 23.6849 4.77546 24.9026C4.53669 24.9623 0.322344 24.9862 0 24.9265C0 19.7451 0 14.5518 0 9.29879ZM4.7874 12.0805C4.7874 13.6086 4.7874 15.1129 4.7874 16.6649C5.08587 16.5336 5.34852 16.4381 5.59923 16.3187C6.48269 15.877 7.03187 15.1726 7.16319 14.1698C7.22289 13.6803 7.24676 13.1789 7.06768 12.7013C6.87666 12.2118 6.53044 11.9253 5.9932 11.8895C5.58729 11.8537 5.19331 11.9492 4.7874 12.0805Z" fill="#FE0000"></path> <path d="M66.6177 0.858157C66.6177 0.989482 66.6177 1.09693 66.6177 1.20438C66.6177 7.0782 66.6177 12.952 66.6177 18.8139C66.6177 19.7929 66.4864 20.7599 66.164 21.6792C65.5313 23.5058 64.2777 24.6877 62.4153 25.1653C60.7916 25.5712 59.168 25.5234 57.5443 25.0697C57.5085 25.0578 57.4727 25.0459 57.4369 25.0339C57.413 25.022 57.3891 25.0101 57.3413 24.9862C57.3413 23.2431 57.3413 21.5001 57.3413 19.7212C57.4607 19.757 57.5682 19.7929 57.6756 19.8287C58.1174 19.9839 58.571 20.1033 59.0486 20.1152C59.3351 20.1152 59.6216 20.0913 59.8962 20.0197C60.5409 19.8526 60.9349 19.3273 60.9946 18.599C61.0065 18.4438 61.0065 18.2886 61.0065 18.1453C61.0065 12.5103 61.0065 6.87524 61.0065 1.25213C61.0065 1.13275 61.0065 1.01336 61.0065 0.858157C62.8809 0.750709 64.7314 0.762648 66.6177 0.858157Z" fill="#FE0000"></path> <path d="M129.188 14.3369C129.069 14.2533 128.997 14.2056 128.914 14.1459C128.066 13.5489 127.194 13.0117 126.239 12.6058C125.81 12.4267 125.368 12.2715 124.878 12.2954C124.747 12.2954 124.616 12.3193 124.484 12.3551C124.078 12.4864 123.887 12.8804 124.078 13.2744C124.174 13.4773 124.341 13.6564 124.508 13.7877C124.759 13.9907 125.045 14.1578 125.32 14.313C125.821 14.5995 126.335 14.8741 126.836 15.1726C127.481 15.5546 128.078 15.9964 128.591 16.5455C129.463 17.4887 129.904 18.6109 129.964 19.8884C129.988 20.545 129.94 21.1897 129.773 21.8224C129.308 23.5416 128.173 24.6161 126.478 25.1414C125.595 25.416 124.675 25.4757 123.756 25.4279C122.419 25.3563 121.13 25.0817 119.9 24.5564C119.589 24.4251 119.279 24.2579 118.981 24.1147C118.981 22.491 118.981 20.8912 118.981 19.2556C119.04 19.2914 119.088 19.3153 119.112 19.3392C120.258 20.2107 121.547 20.7957 122.968 21.0584C123.386 21.13 123.804 21.1658 124.222 21.0822C124.89 20.9509 125.165 20.3062 124.735 19.769C124.568 19.566 124.353 19.3869 124.138 19.2437C123.744 18.993 123.326 18.7781 122.92 18.5632C122.3 18.2289 121.679 17.8827 121.118 17.4529C120.186 16.7366 119.494 15.8412 119.184 14.6951C118.873 13.537 118.873 12.367 119.231 11.2209C119.757 9.54949 120.927 8.55859 122.622 8.20043C124.258 7.8542 125.833 8.09298 127.35 8.7496C127.923 9.00032 128.46 9.3346 129.021 9.63306C129.152 9.7047 129.212 9.8002 129.212 9.95541C129.212 11.3522 129.212 12.7491 129.212 14.1339C129.212 14.1698 129.2 14.2294 129.188 14.3369Z" fill="#FE0000"></path></g> <defs><clipPath id="clip0_4015_99438"><rect width="130" height="24.9518" fill="white" transform="translate(0 0.5)"></rect></clipPath></defs></svg>
+                    </div>
+                    
+                    <div class="hidden lg:flex items-center justify-center text-[1.1em] gap-2">
+                        <i class="fa-solid fa-globe text-2xl"></i>
+                        <select name="" id="" class="papaheavy">
+                            <option>Azerbaycan</option>
+                            <option>English</option>
+                        </select>
+                    </div>
+                    
+                    <div class="flex items-center gap-2 lg:hidden">
+                        <button class=" py-[10px] px-[15px] bg-[#CFEB0B] border-1 border-black rounded-[40px] font-normal text-[12px] cursor-pointer uppercase tracking-[0.2em] leading-[14px] hover:bg-white">Daxil Ol</button>
+                        <button id="bars"><i class="fa-solid fa-bars text-2xl"></i></button>      
+                    </div>
+                    <div id="openedBars" class="block lg:hidden fixed top-[68px] h-0 overflow-hidden left-0 w-full duration-500 bg-white z-10">
+                        <menu class="wrapper pb-5 flex flex-col items-start border-b-[1px] border-[#E7E7E7] ">
+                            <li class="text-[18px] py-[4px] px-[10px] papaheavy cursor-pointer hover:bg-[#F0F0F0] rounded-[20px]">Menyu</li>
+                            <li class="text-[18px] py-[4px] px-[10px] papaheavy cursor-pointer hover:bg-[#F0F0F0] rounded-[20px]">Təkliflər</li>
+                            <li class="text-[18px] py-[4px] px-[10px] papaheavy cursor-pointer hover:bg-[#F0F0F0] rounded-[20px]">PapaBonus</li>
+                            <li class="text-[18px] py-[4px] px-[10px] papaheavy cursor-pointer hover:bg-[#F0F0F0] rounded-[20px]">PapaTalk</li>
+                            <li class="text-[18px] py-[4px] px-[10px] papaheavy cursor-pointer hover:bg-[#F0F0F0] rounded-[20px]">Haqqımızda</li>
+                        </menu>
+                        <div class="wrapper flex items-center py-5 px-[4px]  text-[1.1em] gap-2">
+                            <i class="fa-solid fa-globe text-2xl"></i>
+                            <select name="" id="" class="papaheavy">
+                                <option>Azerbaycan</option>
+                                <option>English</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="hidden lg:flex items-center justify-between py-[8px]">
+                    <menu class="flex items-center gap-y-1.5">
+                        <li class="text-[18px] py-[4px] px-[10px] papaheavy cursor-pointer hover:bg-[#F0F0F0] rounded-[20px]">Menyu</li>
+                        <li class="text-[18px] py-[4px] px-[10px] papaheavy cursor-pointer hover:bg-[#F0F0F0] rounded-[20px]">Təkliflər</li>
+                        <li class="text-[18px] py-[4px] px-[10px] papaheavy cursor-pointer hover:bg-[#F0F0F0] rounded-[20px]">PapaBonus</li>
+                        <li class="text-[18px] py-[4px] px-[10px] papaheavy cursor-pointer hover:bg-[#F0F0F0] rounded-[20px]">PapaTalk</li>
+                        <li class="text-[18px] py-[4px] px-[10px] papaheavy cursor-pointer hover:bg-[#F0F0F0] rounded-[20px]">Haqqımızda</li>
+                    </menu>
+                    <button class=" py-[14px] px-[24px] bg-[#CFEB0B] border-1 border-black rounded-[40px] font-normal text-[1em] cursor-pointer uppercase tracking-[0.2em] leading-[14px] hover:bg-white">Daxil Ol</button>
+                </div>
+                <div class="wrapper py-[10px] ">
+                    <menu id="catagoryMenu" class="flex items-center px-4 overflow-x-scroll lg:flex-wrap lg:overflow-x-hidden">
+                        <li onclick="filter(this,'mukafatlar')" class="whitespace-nowrap text-[18px] leading-[22px] py-[4px] px-[10px] mr-[12px] mb-[10px] rounded-[100px] cursor-pointer hover:bg-[#F0F0F0]"><i class="fa-solid fa-star pr-1"></i> MÜKAFATLAR</li>
+                        <li onclick="filter(this,'kampaniyalar')" class="whitespace-nowrap active text-[18px] leading-[22px] py-[4px] px-[10px] mr-[12px] mb-[10px] rounded-[100px] cursor-pointer hover:bg-[#F0F0F0]">KAMPANIYALAR</li>
+                        <li onclick="filter(this,'pizza')" class="whitespace-nowrap text-[18px] leading-[22px] py-[4px] px-[10px] mr-[12px] mb-[10px] rounded-[100px] cursor-pointer hover:bg-[#F0F0F0]">PIZZA</li>
+                        <li onclick="filter(this,'lunch')" class="whitespace-nowrap text-[18px] leading-[22px] py-[4px] px-[10px] mr-[12px] mb-[10px] rounded-[100px] cursor-pointer hover:bg-[#F0F0F0]">QƏLYANALTI</li>
+                        <li onclick="filter(this,'pizzaparty')" class="whitespace-nowrap text-[18px] leading-[22px] py-[4px] px-[10px] mr-[12px] mb-[10px] rounded-[100px] cursor-pointer hover:bg-[#F0F0F0]">PİZZA PARTY</li>
+                        <li onclick="filter(this,'pasta')" class="whitespace-nowrap text-[18px] leading-[22px] py-[4px] px-[10px] mr-[12px] mb-[10px] rounded-[100px] cursor-pointer hover:bg-[#F0F0F0]">PASTA</li>
+                        <li onclick="filter(this,'salat')" class="whitespace-nowrap text-[18px] leading-[22px] py-[4px] px-[10px] mr-[12px] mb-[10px] rounded-[100px] cursor-pointer hover:bg-[#F0F0F0]">SALATLAR</li>
+                        <li onclick="filter(this,'drink')" class="whitespace-nowrap text-[18px] leading-[22px] py-[4px] px-[10px] mr-[12px] mb-[10px] rounded-[100px] cursor-pointer hover:bg-[#F0F0F0]">İÇKİLƏR</li>
+                        <li onclick="filter(this,'desert')" class="whitespace-nowrap text-[18px] leading-[22px] py-[4px] px-[10px] mr-[12px] mb-[10px] rounded-[100px] cursor-pointer hover:bg-[#F0F0F0]">DESERTLƏR</li>
+                        <li onclick="filter(this,'souses')" class="whitespace-nowrap text-[18px] leading-[22px] py-[4px] px-[10px] mr-[12px] mb-[10px] rounded-[100px] cursor-pointer hover:bg-[#F0F0F0]">SOUSLAR</li>
+                        <li onclick="filter(this,'papadias')" class="whitespace-nowrap text-[18px] leading-[22px] py-[4px] px-[10px] mr-[12px] mb-[10px] rounded-[100px] cursor-pointer hover:bg-[#F0F0F0]">PAPADİAS</li>
+                    </menu>
+                </div>
+            </nav>
+        </header>
+        <main class= "bg-white pt-[150px] lg:pt-[260px]  min-h-[100vh]">
+            <div  class=" wrapper flex justify-between gap-8">
+                <div id="catagoryArea" class="w-[100%] lg:w-[70%] px-3">
+                    <div class="grid grid-cols-2 md:grid-cols-3 gap-2.5 ">
+                        
+                    </div>
+                </div>
+                <div class="relative hidden lg:block w-[30%] ">
+                    <div class="fixed flex flex-col gap-4 overflow-y-auto">
+                        <div class="w-full flex items-center justify-between border-1 border-[#DEDEDE] rounded-[8px] py-2 px-4 cursor-pointer">
+                            <div class="flex items-center gap-2">
+                                <i class="text-[#2D5D2A] fa-solid fa-motorcycle text-[0.8em]"></i>
+                                <p class="text-[#2D5D2A] text-[14px]">Çatdırılma ünvanını daxil edin</p>
+                            </div>
+                            <div class="flex items-center justify-center">
+                                <i class="fa-solid fa-chevron-down text-[#72747A] text-[0.8em]"></i>
+                            </div>
+                        </div>
+                        
+
+                        <div id="basket" class="w-full rounded-[16px] p-[28px] border-1 border-[#C9C9C9] !overflow-y-auto max-h-[400px]">
+                            <!-- <div class="flex flex-col gap-2.5 items-center justify-center">
+                                <i class="text-[#C9C9C9] fa-solid fa-cart-shopping text-7xl"></i>
+                                <p class="text-[#C9C9C9] ">Səbətiniz boşdur</p>
+                            </div> -->
+                            <div id="basketArea">
+                                <!-- <div>
+                                    <div class="flex items-center justify-between pb-[10px] gap-4">
+                                        <h2 class="text-[18px] papaheavy">Cheddar Dabl Burger - Orta, 30 sm</h2>
+                                        <i class="fa-solid fa-x"></i>
+                                    </div>
+                                    
+    
+                                    <div class="text-[14px] leading-[14px]"><span>Hot dog Kenar</span></div>
+                                    <div class="flex items-center justify-between pt-[10px] pb-[20px]">
+                                        <div></div>
+                                        <div class="flex items-center gap-2 ">
+                                            <button class="cursor-pointer px-1.5 border-1 border-[#D7D9D9] rounded-full">
+                                                <i class="fa-solid fa-plus text-[#2D5D2A]"></i>
+                                            </button>
+                                            <span class="text-[#2D5D2A] papaheavy">1</span>
+                                            <button class="cursor-pointer px-1.5 border-1 border-[#D7D9D9] rounded-full">
+                                                <i class="fa-solid fa-minus text-[#2D5D2A]"></i>
+                                            </button>
+                                        </div>
+    
+                                        <div class="papaheavy">25.00 AZN</div>
+                                    </div>
+                                </div> -->
+                            </div>
+
+                            <div class="flex items-center justify-between pt-5 border-t-1 ">
+                                <div class="font-extrabold">YEKUN</div>
+                                <div id="totalBasketPrice" class="font-extrabold">0.00 AZN</div>
+                            </div>
+                            
+                        </div>
+    
+                        <div id="promokod" class="w-full flex items-center justify-between border-1 border-[#DEDEDE] rounded-[8px] py-2 px-4 cursor-pointer">
+                            <span class="text-[#C9C9C9] text-[0.9em]">Promokodunuz varmı? Onu burada daxil edin</span>
+                        </div>
+                        <button class=" text-white uppercase text-[.9em] tracking-[0.2em] bg-[#DEDEDE] p-4 rounded-[36px]">Sİfarİşİn təsdİqİnə keçİd edİn</button>
+                    </div>
+
+                </div>
+            </div>
+        </main>
+        <footer>
+
+        </footer>
+
+        <script src="data.js"></script>
+        <script src="app.js"></script>
+    </body>
+</html>

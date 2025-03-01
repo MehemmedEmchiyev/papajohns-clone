@@ -1,0 +1,7 @@
+@import "tailwindcss";
+.wrapper{max-width: 1140px;margin: auto;}
+.papabold{font-family: PapaBold;}
+.papaheavy{font-family: PapaHeavy;}
+.active{background-color: black; color: white;}
+.pr-cart:hover{box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12)}
+.pr-cart:hover .cartBtn{opacity: 1;}
