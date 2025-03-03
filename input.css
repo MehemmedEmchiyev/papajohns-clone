@@ -5,3 +5,9 @@
 .active{background-color: black; color: white;}
 .pr-cart:hover{box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12)}
 .pr-cart:hover .cartBtn{opacity: 1;}
+.actived{
+    background-color: #CFEB0B;
+    color: black;
+    border: 1px solid black;
+}
+.takeawayborder{border: 2px solid #2A5828;}

@@ -2083,3 +2083,61 @@ const data = {
         }
     ]
 }
+
+const papaJohnsLocations = [
+    {
+      id:"xirdalan",
+      name: "XIRDALAN",
+      address: "Hacı Zeynalabdin Tağıyev 5",
+      maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2783.505516586035!2d49.761554275690834!3d40.44092967143564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4030866ffda98627%3A0xb6ecd7e3a138c1bf!2zNSBIYWPEsSBaZXluYWxhYmRpbiBUYcSfxLF5ZXYsIEJha8Sx!5e1!3m2!1str!2saz!4v1741002493468!5m2!1str!2saz",
+      workingHours: "Bazar ertəsi - Bazar: 11:00 - 23:00",
+      lastOrder: {
+        dineIn: "22:30",
+        takeAway: "22:45"
+      }
+    },
+    {
+      id:"cresent",  
+      name: "CRESCENT MALL",
+      address: "Neftchilar avenue 64-72",
+      maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2786.874087987242!2d49.83176437568647!3d40.35950677144884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307c337578b0d9%3A0x5524e06da8e517f9!2sNeftchilar%20Ave%2C%20Baku!5e1!3m2!1str!2saz!4v1741002699786!5m2!1str!2saz",
+      workingHours: "Bazar ertəsi - Bazar: 10:00 - 23:00",
+      lastOrder: {
+        dineIn: "22:30",
+        takeAway: "22:45"
+      }
+    },
+    {
+      id:"nizami",  
+      name: "NIZAMI STREET",
+      address: "Nizami Caddesi 106A",
+      maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2786.290530994956!2d49.84067207568719!3d40.37362187144657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307dafc821e417%3A0x29ce9a274da1130!2s106a%20Nizami%20St%2C%20Baku%201005!5e1!3m2!1str!2saz!4v1741003219604!5m2!1str!2saz",
+      workingHours: "Bazar ertəsi - Bazar: 12:00 - 22:00",
+      lastOrder: {
+        dineIn: "21:30",
+        takeAway: "21:45"
+      }
+    },
+    {
+      id:"genclik",  
+      name: "GANCLIK MALL",
+      address: "Fatali Xan Xoyski 38",
+      maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2785.1920464601767!2d49.84950407568871!3d40.40018097144228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307d5d607043cb%3A0x16ab88f3847be7ed!2s38%20Fatali%20Khan%20Khoyski%2C%20Baku!5e1!3m2!1str!2saz!4v1741003252419!5m2!1str!2saz",
+      workingHours: "Bazar ertəsi - Bazar: 10:00 - 22:00",
+      lastOrder: {
+        dineIn: "21:00",
+        takeAway: "21:15"
+      }
+    },
+    {
+      id:"deniz",  
+      name: "DENIZ MALL",
+      address: "Af Mall, Neftchilar avenue",
+      maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2786.170818711284!2d49.839080075687406!3d40.37651697144608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307da5a4c85e9f%3A0x8b209a8e1ed5eea9!2sAF%20Mall!5e1!3m2!1str!2saz!4v1741003283320!5m2!1str!2saz",
+      workingHours: "Bazar ertəsi - Bazar: 11:00 - 23:00",
+      lastOrder: {
+        dineIn: "22:30",
+        takeAway: "22:45"
+      }
+    }
+  ];
